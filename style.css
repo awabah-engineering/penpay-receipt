@@ -1,0 +1,97 @@
+.container-fluid {
+  background-color: white;
+  font-family: "Montserrat", sans-serif;
+}
+
+p {
+  margin: 3px;
+}
+
+.container {
+  background: rgba(217, 217, 217, 0.3);
+  width: 40%;
+  margin: auto;
+}
+
+.total-payment {
+  border-bottom: 1px solid rgba(0, 0, 0, 0.5);
+  text-align: center;
+  padding: 15px 0;
+}
+
+.total-payment-text {
+  font-weight: 500;
+  font-size: 28px;
+  line-height: 49px;
+  letter-spacing: 0.01em;
+  color: #000000;
+}
+
+.total-payment-amount {
+  font-weight: 800;
+  font-size: 38px;
+  line-height: 59px;
+  letter-spacing: 0.03em;
+  color: #000000;
+}
+
+.payment{
+    margin-top: 30px;
+}
+
+.payment-header {
+  text-align: center;
+  font-size: 25px;
+}
+
+.payment-details,
+.btn-section {
+  padding: 2% 10%;
+}
+
+.payment-details-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  margin: 20px 0;
+}
+
+.payment-details-title {
+  font-size: 18px;
+}
+
+.payment-details-content {
+  text-align: right;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 18px;
+}
+
+.processing-fee-section {
+  margin-top: 8%;
+}
+
+.btn-section {
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+    align-content: center;
+    justify-content: center;
+    gap: 15px;
+}
+
+.btn-success {
+  background: #00a557;
+  color: white;
+  padding: 10px 20px;
+  width: 200px;
+  border: 0;
+  border-radius: 4px;
+  margin: auto;
+}
+
+.btn-black {
+  width: 235px;
+  background: black;
+  color: white;
+  border: 0;
+  border-radius: 4px;
+}
